@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 function rollADice(sidesInADice) {
     return Math.floor(Math.random() * sidesInADice) + 1;
 }
@@ -14,5 +16,7 @@ function rollMultipleDices(numberOfDice, sidesInADice) {
     return result;
 }
 
+const numberOfDices = prompt("Please tell number of dices: ");
+const numberOfSides = prompt("Please tell number of sides in a dice: ");
 
-console.log(rollMultipleDices(3, 6));
+console.log(rollMultipleDices(numberOfDices, numberOfSides));
