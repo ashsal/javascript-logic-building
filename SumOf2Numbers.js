@@ -1,12 +1,13 @@
-function sum(a, b) {
-    const sum = a + b;
-    console.log('Sum is', sum);
+function getSum(a,b){
+    console.log(a+b);
 }
+getSum(2,3);
+getSum(9.9,-0.6);
+getSum(0,-1);
 
-sum(1, 2);
-sum(123, 234);
-sum(-1, 2);
-sum(-1, -2);
-sum(1, 0);
-sum(1, 1.5);
-sum(2.5, 1.5);
+
+
+
+
+
+
