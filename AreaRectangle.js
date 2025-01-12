@@ -1,4 +1,5 @@
 function calculateArea(length, width) {
+    let i = 0;
     if(length <= 0) {
         throw new RangeError("Length should be a positive number");
     } 
